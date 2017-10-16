@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAppSqlDb", "DotNetAppSqlDb\DotNetAppSqlDb.csproj", "{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAppSqlDb.Tests", "DotNetAppSqlDb.Tests\DotNetAppSqlDb.Tests.csproj", "{02386507-312D-4748-9DEB-48FD093F655C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02386507-312D-4748-9DEB-48FD093F655C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02386507-312D-4748-9DEB-48FD093F655C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02386507-312D-4748-9DEB-48FD093F655C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02386507-312D-4748-9DEB-48FD093F655C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
