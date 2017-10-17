@@ -18,6 +18,7 @@ namespace DotNetAppSqlDb.Models
 
         public MyDatabaseContext() : base("name=MyDbConnection")
         {
+            AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Directory.GetCurrentDirectory());
         }
 
 
