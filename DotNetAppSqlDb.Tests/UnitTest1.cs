@@ -13,8 +13,7 @@ namespace DotNetAppSqlDb.Tests
         {
             var controller = new TodosController();
             var result = controller.Details(1) as ViewResult;
-            Assert.AreEqual("Details", result.ViewName);
-
+            Assert.AreEqual("Details", result.ViewBag.Title);
         }
     }
 }
