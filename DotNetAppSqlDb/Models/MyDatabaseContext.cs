@@ -16,7 +16,7 @@ namespace DotNetAppSqlDb.Models
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
 
-        public MyDatabaseContext() : base("MyDbConnection")
+        public MyDatabaseContext() : base("name=MyDbConnection")
         {
         }
 
