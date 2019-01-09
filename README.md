@@ -1,3 +1,3 @@
-# ASP.NET simple ToDo list app w/Azure SQL db and CICD deployment to Azure App Services
+# ASP.NET ToDo List application
 
-(learning Azure and CICD)
+Uses an Azure MS SQL server database. Configured CICD deployment pipeline using VSTS, from Github repo to Azure App Services. For learning purposes.
